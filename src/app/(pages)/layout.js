@@ -5,7 +5,9 @@ const HomeLayout = ({ children }) => {
   return (
     <div>
       <NavBar />
-      {children}
+      <div className="px-10">
+        {children}
+      </div>
     </div>
   );
 };
