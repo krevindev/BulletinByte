@@ -24,7 +24,7 @@ const NavBar = () => {
   return (
     <div className="flex justify-between bg-[#15151D] box-border py-5 px-10 sticky top-0 left-0">
       <div>
-        <Image src={bulletinByteLogo} alt="BulletinByte Logo" />
+        <Image className="min-w-fit max-w-[80vw]" src={bulletinByteLogo} alt="BulletinByte Logo" />
       </div>
       <div className="flex">
         <ul className="bellez-regular flex">

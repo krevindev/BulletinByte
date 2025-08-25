@@ -32,4 +32,9 @@ body {
   min-height: 100vh;
   top: 0;
   left: 0;
+
+  overflow-x: hidden;
+
+  max-width: 100%;
+  box-sizing: border-box;
 }
