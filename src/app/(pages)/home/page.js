@@ -3,7 +3,13 @@ import HomeSection from "./HomeSection";
 
 const Home = () => {
   return (
-    <div>
+    <div className="py-10">
+      <HomeSection title="Top News" />
+      <HomeSection title="Top News" />
+      <HomeSection title="Top News" />
+      <HomeSection title="Top News" />
+      <HomeSection title="Top News" />
+      <HomeSection title="Top News" />
       <HomeSection title="Top News" />
     </div>
   );
