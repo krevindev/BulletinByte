@@ -5,7 +5,7 @@ const HomeLayout = ({ children }) => {
   return (
     <div>
       <NavBar />
-      <div className="px-10">
+      <div className="px-10 box-border">
         {children}
       </div>
     </div>
