@@ -1,6 +1,7 @@
 import React from "react";
 import HomeSection from "./HomeSection";
-import TopNewsContent from "./TopNewsContent";
+import TopNewsContent from "./TopNews/TopNewsContent";
+import SourcesContent from "./Sources/SourcesContent";
 
 const Home = () => {
   return (
@@ -8,8 +9,9 @@ const Home = () => {
       <HomeSection title="Top News">
         <TopNewsContent />
       </HomeSection>
-      <HomeSection title="Sources" />
-      <HomeSection title="Top News" />
+      <HomeSection title="Sources">
+        <SourcesContent />
+      </HomeSection>
     </div>
   );
 };
