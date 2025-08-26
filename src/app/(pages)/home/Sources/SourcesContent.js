@@ -35,7 +35,7 @@ const sourcesData = [
 
 const SourceCard = ({ name, imgSrc }) => {
   return (
-    <div className="bg-[#242732] min-h-[100px] min-w-[300px] m-3 rounded-xl flex flex-col justify-center items-start p-5 text-[#DBDBDB] transition-all ease-in-out duration-500 border-[1px] border-[rgba(0,0,0,0)] hover:border-[#DBDBDB]">
+    <div className="bg-[#242732] min-h-[100px] min-w-[20vw] m-3 rounded-xl flex flex-col justify-center items-start py-5 px-10 text-[#DBDBDB] transition-all ease-in-out duration-500 border-[1px] border-[rgba(0,0,0,0)] hover:border-[#DBDBDB]">
       {/* Head */}
       <div className="flex w-full items-center">
         <Image
