@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bulletinByteLogo from "../assets/bulletinbyte-logo.svg";
+// import bulletinByteLogo from "../assets/bulletinbyte-logo.svg";
 import Link from "next/link";
 
 const NavLink = ({ name, link }) => {
@@ -24,7 +24,13 @@ const NavBar = () => {
   return (
     <div className="flex justify-between bg-[#15151D] box-border py-5 px-10 sticky top-0 left-0">
       <div>
-        <Image className="min-w-fit max-w-[80vw]" src={bulletinByteLogo} alt="BulletinByte Logo" />
+        <Image
+          width={40}
+          height={40}
+          className="min-w-fit max-w-[80vw]"
+          src="/assets/bulletinbyte-logo.svg"
+          alt="BulletinByte Logo"
+        />
       </div>
       <div className="flex">
         <ul className="bellez-regular flex">
