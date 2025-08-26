@@ -2,11 +2,11 @@ import React from "react";
 
 const HomeSection = ({ title, children }) => {
   return (
-    <div className="w-screen h-fit min-h-fit pb-16">
+    <div className="w-full h-fit min-h-fit pb-16">
       {/* Title/Header */}
       <div className="flex justify-center items-center py-5">
-        <div className="bg-yellow-400 px-7 py-1 w-fit min-w-fit rounded-md">
-          <h1 className="text-black text-xl font-bold uppercase tracking-wider">
+        <div className="bg-yellow-400 px-7 py-2 w-fit min-w-fit rounded-md">
+          <h1 className="text-[#161720] text-lg font-bold uppercase tracking-wider">
             {title}
           </h1>
         </div>
