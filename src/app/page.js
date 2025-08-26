@@ -1,8 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-    <div className="h-full">
-      <div className="w-full min-h-[80%] bg-red-200">
-      </div>
-    </div>
-  );
+  redirect("/home");
 }
