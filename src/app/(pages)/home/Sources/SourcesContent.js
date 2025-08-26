@@ -42,7 +42,7 @@ const SourceCard = ({ name, imgSrc }) => {
           className="h-full"
           width={60}
           height={40}
-          src={`assets/images/${imgSrc}`}
+          src={`assets/logos/${imgSrc}`}
           alt="source-logo"
         />
         <div className="h-[1px] w-[90%] mx-3 bg-[#454956]"></div>
